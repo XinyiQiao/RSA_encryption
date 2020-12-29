@@ -1,0 +1,19 @@
+version: '3'
+
+volumes:
+  data: {}
+
+services:
+  rsa_encryption:
+    build:
+      context: .
+      dockerfile: ./compose/rsa_encryption/Dockerfile
+    environment:
+      - LC_ALL=C.UTF-8
+      - LANG=C.UTF-8
+    #env-file:
+    #  - ./.envs/.production/.rsa_encryption
+    image: rsa_encryption
+    volumes:
+      - data:/data
+    #command: /start

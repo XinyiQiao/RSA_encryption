@@ -1,0 +1,16 @@
+version: '3'
+
+volumes:
+  data_test: {}
+
+services:
+  rsa_encryption:
+    build:
+      context: .
+      dockerfile: ./compose/rsa_encryption/Dockerfile-test
+    environment:
+      - LC_ALL=C.UTF-8
+      - LANG=C.UTF-8
+    image: rsa_encryption:test
+    volumes:
+      - data_test:/data

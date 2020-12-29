@@ -1,0 +1,37 @@
+==============
+rsa_encryption
+==============
+
+
+.. image:: https://img.shields.io/pypi/v/rsa_encryption.svg
+        :target: https://pypi.python.org/pypi/rsa_encryption
+
+.. image:: https://img.shields.io/travis/XinyiQiao/rsa_encryption.svg
+        :target: https://travis-ci.org/XinyiQiao/rsa_encryption
+
+.. image:: https://readthedocs.org/projects/rsa-encryption/badge/?version=latest
+        :target: https://rsa-encryption.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+
+
+Encryption using RSA
+
+
+* Free software: MIT license
+* Documentation: https://rsa-encryption.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
